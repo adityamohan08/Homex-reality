@@ -153,14 +153,14 @@ if(isset($_POST['insert']))
 								?>
                                 <div class="user-info mt-md-50"> <img src="admin/user/<?php echo $row['6'];?>" alt="userimage">
                                     <div class="mb-4 mt-3">
-                                        
+
                                     </div>
 									
                                     <div class="font-18">
-                                        <div class="mb-1 text-capitalize"><b>Name:</b> <?php echo $row['18'];?></div>
-                                        <div class="mb-1 text-capitalize"><b>Email:</b> <?php echo $row['19'];?></div>
-                                        <div class="mb-1 text-capitalize"><b>Phone:</b> <?php echo $row['20'];?></div>
-										<div class="mb-1 text-capitalize"><b>Role:</b> <?php echo $row['21'];?></div>
+                                        <div class="mb-1 text-capitalize"><b>Name:</b> <?php echo $row['1'];?></div>
+                                        <div class="mb-1 text-capitalize"><b>Email:</b> <?php echo $row['2'];?></div>
+                                        <div class="mb-1 text-capitalize"><b>Phone:</b> <?php echo $row['3'];?></div>
+										<div class="mb-1 text-capitalize"><b>Role:</b> <?php echo $row['5'];?></div>
                                     </div>
 									<?php } ?>
                                 </div>
